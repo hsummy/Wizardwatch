@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		E3105D261DEF24D800CC6FC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3105D251DEF24D800CC6FC6 /* main.m */; };
 		E3105D291DEF24D800CC6FC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3105D281DEF24D800CC6FC6 /* AppDelegate.m */; };
-		E3105D2C1DEF24D800CC6FC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3105D2B1DEF24D800CC6FC6 /* ViewController.m */; };
 		E3105D2F1DEF24D800CC6FC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3105D2D1DEF24D800CC6FC6 /* Main.storyboard */; };
 		E3105D311DEF24D800CC6FC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3105D301DEF24D800CC6FC6 /* Assets.xcassets */; };
 		E3105D341DEF24D800CC6FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3105D321DEF24D800CC6FC6 /* LaunchScreen.storyboard */; };
+		E3105D3D1DEF251900CC6FC6 /* WizardwatchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3105D3C1DEF251900CC6FC6 /* WizardwatchTableViewController.m */; };
+		E3105D401DEF267900CC6FC6 /* Wizard.m in Sources */ = {isa = PBXBuildFile; fileRef = E3105D3F1DEF267900CC6FC6 /* Wizard.m */; };
+		E3105D421DEF2D7500CC6FC6 /* wizards.json in Resources */ = {isa = PBXBuildFile; fileRef = E3105D411DEF2D7500CC6FC6 /* wizards.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,15 @@
 		E3105D251DEF24D800CC6FC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E3105D271DEF24D800CC6FC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3105D281DEF24D800CC6FC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E3105D2A1DEF24D800CC6FC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E3105D2B1DEF24D800CC6FC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E3105D2E1DEF24D800CC6FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3105D301DEF24D800CC6FC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3105D331DEF24D800CC6FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3105D351DEF24D800CC6FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3105D3B1DEF251900CC6FC6 /* WizardwatchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizardwatchTableViewController.h; sourceTree = "<group>"; };
+		E3105D3C1DEF251900CC6FC6 /* WizardwatchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardwatchTableViewController.m; sourceTree = "<group>"; };
+		E3105D3E1DEF267900CC6FC6 /* Wizard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wizard.h; sourceTree = "<group>"; };
+		E3105D3F1DEF267900CC6FC6 /* Wizard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wizard.m; sourceTree = "<group>"; };
+		E3105D411DEF2D7500CC6FC6 /* wizards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wizards.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +65,16 @@
 			children = (
 				E3105D271DEF24D800CC6FC6 /* AppDelegate.h */,
 				E3105D281DEF24D800CC6FC6 /* AppDelegate.m */,
-				E3105D2A1DEF24D800CC6FC6 /* ViewController.h */,
-				E3105D2B1DEF24D800CC6FC6 /* ViewController.m */,
 				E3105D2D1DEF24D800CC6FC6 /* Main.storyboard */,
+				E3105D3B1DEF251900CC6FC6 /* WizardwatchTableViewController.h */,
+				E3105D3C1DEF251900CC6FC6 /* WizardwatchTableViewController.m */,
 				E3105D301DEF24D800CC6FC6 /* Assets.xcassets */,
 				E3105D321DEF24D800CC6FC6 /* LaunchScreen.storyboard */,
 				E3105D351DEF24D800CC6FC6 /* Info.plist */,
 				E3105D241DEF24D800CC6FC6 /* Supporting Files */,
+				E3105D3E1DEF267900CC6FC6 /* Wizard.h */,
+				E3105D3F1DEF267900CC6FC6 /* Wizard.m */,
+				E3105D411DEF2D7500CC6FC6 /* wizards.json */,
 			);
 			path = Wizardwatch;
 			sourceTree = "<group>";
@@ -137,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3105D421DEF2D7500CC6FC6 /* wizards.json in Resources */,
 				E3105D341DEF24D800CC6FC6 /* LaunchScreen.storyboard in Resources */,
 				E3105D311DEF24D800CC6FC6 /* Assets.xcassets in Resources */,
 				E3105D2F1DEF24D800CC6FC6 /* Main.storyboard in Resources */,
@@ -150,9 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3105D2C1DEF24D800CC6FC6 /* ViewController.m in Sources */,
+				E3105D401DEF267900CC6FC6 /* Wizard.m in Sources */,
 				E3105D291DEF24D800CC6FC6 /* AppDelegate.m in Sources */,
 				E3105D261DEF24D800CC6FC6 /* main.m in Sources */,
+				E3105D3D1DEF251900CC6FC6 /* WizardwatchTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +317,7 @@
 				E3105D3A1DEF24D800CC6FC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
